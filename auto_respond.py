@@ -6,7 +6,7 @@ from tweepy import OAuthHandler
 from tweepy import Stream
 from tweepy import API
 
-#from nltk.chat import eliza
+import chatbot
 
 config = ConfigParser.ConfigParser()
 config.read('.twitter')
@@ -22,8 +22,6 @@ account_user_id = config.get('app', 'account_user_id')
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 twitterApi = API(auth)
-
-#chatbot = eliza.Chat(eliza.pairs)
 
 class ReplyToTweet(StreamListener):
 
