@@ -1,15 +1,13 @@
 # Tweet Bot
 
 
-*requires tensorflow 0.12.0*
-
 ![](https://img.shields.io/badge/python-3-brightgreen.svg) ![](https://img.shields.io/badge/tensorflow-0.12.0-yellowgreen.svg) ![](https://img.shields.io/badge/tweepy-3.5.0-yellow.svg)
 
 
 ## Setup
 
 
-**pull pretrained model**
+- **pull pretrained model**
 
 ```bash
 # pull metadata
@@ -20,7 +18,7 @@ cd ckpt
 cd ..
 ```
 
-**setup twitter bot**
+- **setup twitter bot**
 
 1. Create an account
 2. Connect mobile phone with your account
@@ -47,7 +45,7 @@ wget -c 'https://raw.githubusercontent.com/twitterdev/sample-python-autoreply/ma
 ## Execute
 
 
-**chatbot**
+- **chatbot**
 
 ```python
 import chatbot
@@ -60,7 +58,7 @@ chatbot.respond('Hey! Good morning.. Have a nice day.')
 # 'have a wonderful weekend'
 ```
 
-**autoreply**
+- **autoreply**
 
 ```bash
 # checklist
