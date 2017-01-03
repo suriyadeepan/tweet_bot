@@ -3,7 +3,7 @@
 
 *requires tensorflow 0.12.0*
 
-![https://img.shields.io/badge/python3--brightgreen.svg] ![https://img.shields.io/badge/tensorflow-0.12.0-yellowgreen.svg]
+![](https://img.shields.io/badge/python3--brightgreen.svg)![](https://img.shields.io/badge/tensorflow-0.12.0-yellowgreen.svg)
 
 ## Setup
 
