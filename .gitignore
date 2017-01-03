@@ -1,2 +1,4 @@
 ignore
 .twitter.sample
+ckpt/
+metadata.pkl
